@@ -1,0 +1,43 @@
+{
+  "main": "spark-imports-plugin.js",
+  "name": "spark-imports-plugin",
+  "author": {
+    "name": "Hugh Fitzpatrick",
+    "url": "https://github.com/FitzerIRL"
+  },
+  "contributors": [
+    {
+      "name": "Hugh Fitzpatrick",
+      "url": "https://github.com/FitzerIRL"
+    }
+  ],
+  "deprecated": false,
+  "description": "Import Plugin for Spark (www.pxscene.org) - to support detection of 'px.import(..)' files in WebPack builds.",
+  "version": "1.0.0",
+  "keywords": [
+    "bash",
+    "Spark",
+    "loader",
+    "resource",
+    "file"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "spark-imports-plugin.js",
+    "src",
+    "test"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.6.0",
+    "memory-fs": "^0.4.1",
+    "webpack": "^4.20.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
