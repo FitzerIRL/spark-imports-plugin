@@ -1,5 +1,5 @@
 {
-  "main": "spark-imports-plugin.js",
+  "main": "index.js",
   "name": "spark-imports-plugin",
   "author": {
     "name": "Hugh Fitzpatrick",
